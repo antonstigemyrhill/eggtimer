@@ -4377,19 +4377,6 @@
 		)
 		(uuid "80789f17-b178-400e-a5c2-d48e57361b99")
 	)
-	(text "encoder needs footprint"
-		(exclude_from_sim no)
-		(at 269.748 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a76c8d97-f1e0-459a-bd77-4f310c9dff03")
-	)
 	(text "5k1//5k1\naprox 2k5"
 		(exclude_from_sim no)
 		(at 201.676 75.184 0)
@@ -4431,19 +4418,6 @@
 			(justify left bottom)
 		)
 		(uuid "de527719-3e59-4817-b50b-d178d7c3dc31")
-	)
-	(text "buzzer needs footprint"
-		(exclude_from_sim no)
-		(at 276.606 142.748 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e75145bd-5610-4ca3-984c-94c9065e2d2b")
 	)
 	(text "check if this is correct\nPEC12R-4220F-N0024\n\n"
 		(exclude_from_sim no)
@@ -6382,7 +6356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b39cf23-eddc-45b6-b748-342b3e83c09e")
-		(property "Reference" "D10"
+		(property "Reference" "D3"
 			(at 270.51 164.338 0)
 			(effects
 				(font
@@ -6390,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 273.304 167.132 0)
 			(effects
 				(font
@@ -6433,7 +6407,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D10")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6974,7 +6948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41c901df-23eb-47ad-a99d-25ff450c2251")
-		(property "Reference" "D4"
+		(property "Reference" "D8"
 			(at 279.4 177.038 0)
 			(effects
 				(font
@@ -6982,7 +6956,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 282.194 179.832 0)
 			(effects
 				(font
@@ -7025,7 +6999,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D4")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7059,7 +7033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:74HC595D,118  SOIC-16 Shift Registers"
 			(at 255.27 170.18 0)
 			(effects
 				(font
@@ -7350,7 +7324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50a0d9f7-a3c6-4c1c-ba97-d48910aafcc4")
-		(property "Reference" "D1"
+		(property "Reference" "D9"
 			(at 238.76 63.5 0)
 			(effects
 				(font
@@ -7401,7 +7375,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D1")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7499,7 +7473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Harwin:Harwin_LTek-Male_05_P2.00mm_Vertical"
 			(at 220.98 184.15 0)
 			(effects
 				(font
@@ -8095,7 +8069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74ff8281-e278-4ed5-95e4-d20a90016bd2")
-		(property "Reference" "D12"
+		(property "Reference" "D2"
 			(at 279.4 161.798 0)
 			(effects
 				(font
@@ -8103,7 +8077,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 282.194 164.592 0)
 			(effects
 				(font
@@ -8146,7 +8120,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D12")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8492,7 +8466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d3f41e7-84d8-44ae-b555-583b45c4af2f")
-		(property "Reference" "D9"
+		(property "Reference" "D1"
 			(at 270.51 159.258 0)
 			(effects
 				(font
@@ -8500,7 +8474,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 273.304 162.052 0)
 			(effects
 				(font
@@ -8543,7 +8517,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D9")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8641,7 +8615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 46.99 57.15 0)
 			(effects
 				(font
@@ -9207,7 +9181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:HND-2319 Buzzer"
 			(at 286.385 130.81 90)
 			(effects
 				(font
@@ -10561,7 +10535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4b05894-db15-4e4e-93a3-1c589aa47d61")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 270.51 174.498 0)
 			(effects
 				(font
@@ -10569,7 +10543,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 273.304 177.292 0)
 			(effects
 				(font
@@ -10612,7 +10586,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11156,7 +11130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f730554d-953d-4494-ba80-0b84f598762d")
-		(property "Reference" "D13"
+		(property "Reference" "D4"
 			(at 279.4 166.878 0)
 			(effects
 				(font
@@ -11164,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 282.194 169.672 0)
 			(effects
 				(font
@@ -11207,7 +11181,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D13")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11222,7 +11196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7c6e374-ada7-4124-98b0-142510ecd882")
-		(property "Reference" "D11"
+		(property "Reference" "D5"
 			(at 270.51 169.418 0)
 			(effects
 				(font
@@ -11230,7 +11204,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 273.304 172.212 0)
 			(effects
 				(font
@@ -11273,7 +11247,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D11")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11354,7 +11328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f89021b3-57e2-4386-9a7c-26d7ae72c1a1")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 279.4 171.958 0)
 			(effects
 				(font
@@ -11362,7 +11336,7 @@
 				)
 			)
 		)
-		(property "Value" "LED white/yellow"
+		(property "Value" "LED white"
 			(at 282.194 174.752 0)
 			(effects
 				(font
@@ -11405,7 +11379,7 @@
 		(instances
 			(project "eggtimer"
 				(path "/4b87e02e-73da-44fc-9ee3-219697950739"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
