@@ -1,4 +1,4 @@
-27334392056223417
+27336173823194327
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107946,3 +107946,10 @@ TK-6580DS-1 push button
 0
 6
 6
+custom
+screw_terminal_2
+
+
+0
+2
+2
