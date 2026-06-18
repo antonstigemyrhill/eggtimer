@@ -1,0 +1,55 @@
+### Footprint positions - created on 2026-06-18T14:40:59+0200 ###
+### Printed by KiCad version 9.0.8
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref                     Val                          Package                                                       PosX       PosY       Rot  Side
+74HC595                   74HC595                      74HC595D,118__SOIC-16_Shift_Registers                     107.5000   -65.0800   90.0000  top
+Battery_Cell1             Battery_Cell                 screw_terminal_2                                          115.0000   -52.0000  180.0000  top
+Button                    SW_Push                      TK-6580DS-1_push_button                                    99.1000   -51.7000   90.0000  top
+Buzzer1                   Buzzer                       HND-2319_Buzzer                                            95.7500   -79.3000  -90.0000  top
+C1                        1u                           C_0603_1608Metric                                         103.4000   -52.4750   90.0000  top
+C2                        1u                           C_0603_1608Metric                                         104.2250   -56.9500  180.0000  top
+C3                        4u7                          C_0805_2012Metric                                          88.3000   -58.8000    0.0000  top
+C4                        100n                         C_0402_1005Metric                                          98.8500   -63.0000  -90.0000  top
+C5                        100n                         C_0402_1005Metric                                          89.9500   -61.5200   90.0000  top
+C6                        1u                           C_0603_1608Metric                                          89.2000   -47.5000   90.0000  top
+C7                        1u                           C_0603_1608Metric                                         106.9750   -59.0400  180.0000  top
+C8                        100n                         C_0402_1005Metric                                          85.2000   -63.6000   90.0000  top
+C9                        100n                         C_0402_1005Metric                                          85.8000   -65.3000    0.0000  top
+C10                       4u7                          C_0805_2012Metric                                          86.4000   -53.6000   90.0000  top
+D1                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -75.4000  180.0000  top
+D2                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -72.9000  180.0000  top
+D3                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -70.4000  180.0000  top
+D4                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -67.9000  180.0000  top
+D5                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -65.4000  180.0000  top
+D6                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -62.9000  180.0000  top
+D7                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -60.4000  180.0000  top
+D8                        LED_yellow                   LED_0805_2012Metric                                       114.1125   -57.9000  180.0000  top
+D9                        LED_r                        LED_0805_2012Metric                                        94.3000   -49.1625   90.0000  top
+D10                       LED_G                        LED_0805_2012Metric                                       100.1875   -45.0000  180.0000  top
+HT7533-1                  ~                            SOT-89-3                                                  107.4000   -53.4000    0.0000  top
+J1                        USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal    70.2100   -54.2750  -90.0000  top
+R1                        5k1                          R_0603_1608Metric                                          76.5750   -50.5000  180.0000  top
+R2                        5k1                          R_0603_1608Metric                                          76.3000   -57.1000  -90.0000  top
+R3                        5k1                          R_0603_1608Metric                                          90.7500   -48.9250  -90.0000  top
+R4                        680                          R_0402_1005Metric                                          91.4600   -51.4000  180.0000  top
+R5                        680                          R_0402_1005Metric                                         119.6425   -60.4000  180.0000  top
+R6                        680                          R_0402_1005Metric                                         119.6425   -62.9000  180.0000  top
+R7                        680                          R_0402_1005Metric                                         119.6225   -57.9000  180.0000  top
+R8                        10k                          R_0805_2012Metric                                          86.7500   -61.7125  -90.0000  top
+R9                        10k                          R_0805_2012Metric                                          88.4500   -65.2000   90.0000  top
+R10                       5k1                          R_0603_1608Metric                                          92.4500   -48.9250  -90.0000  top
+R11                       680                          R_0402_1005Metric                                         103.6700   -44.3000  180.0000  top
+R12                       680                          R_0402_1005Metric                                         119.6225   -75.4000  180.0000  top
+R13                       680                          R_0402_1005Metric                                         119.6225   -72.9000  180.0000  top
+R14                       680                          R_0402_1005Metric                                         119.6025   -70.4000  180.0000  top
+R15                       680                          R_0402_1005Metric                                         119.6225   -67.9000  180.0000  top
+R16                       680                          R_0402_1005Metric                                         119.6425   -65.4000  180.0000  top
+R17                       680                          R_0402_1005Metric                                          93.8600   -51.4000  180.0000  top
+R18                       680                          R_0402_1005Metric                                         103.6600   -45.7000  180.0000  top
+Rotary_Encoder1           Rotary_Encoder               PEC12R-4220F-N0024_encoder                                 75.6500   -68.6000    0.0000  top
+STM32F042F6P6             STM32F042F6Px                TSSOP-20_4.4x6.5mm_P0.65mm                                 94.4125   -62.5750    0.0000  top
+U1                        USBLC6-2SC6                  SOT-23-6                                                   80.6625   -54.8500    0.0000  top
+U2                        MCP73831-2-MC                DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm                         87.7500   -50.3000    0.0000  top
+nrst-swclk-gnd-swdio-3v3  nrst-swclk-gnd-swdio-3v3     Harwin_LTek-Male_05_P2.00mm_Vertical                       84.5000   -46.3000  180.0000  top
+## End
